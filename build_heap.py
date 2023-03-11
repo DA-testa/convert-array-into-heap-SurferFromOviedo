@@ -32,7 +32,7 @@ def main():
     source = input()
     if "F" in source:
         filename = input()
-        with open("convert-array-into-heap-SurferFromOviedo/tests/" + filename, 'r', encoding = "utf-8") as f:
+        with open("tests/" + filename, 'r', encoding = "utf-8") as f:
             n = int(f.readline())
             data = list(map(int, f.readline().split()))
     elif "I" in source:
